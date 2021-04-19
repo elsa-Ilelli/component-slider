@@ -1,0 +1,28 @@
+{
+  "name": "slider-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "accessibility.js",
+  "scripts": {
+    "watch:sass": "node-sass main.scss css/style.css -w",
+    "start": "npm-run-all watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsa-Ilelli/component-slider.git"
+  },
+  "author": "Elsa Vivien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsa-Ilelli/component-slider/issues"
+  },
+  "homepage": "https://github.com/elsa-Ilelli/component-slider#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "unfocus": "^1.0.1"
+  }
+}
